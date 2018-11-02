@@ -5,3 +5,14 @@ object fuerzaOscura {
 		valor *= 2
 	}
 }
+
+object fechaActual{
+	var property fecha = new Date(28,10,2018)
+	method actualizarFecha(dia,mes,anio){
+		fecha = new Date(dia,mes,anio)
+	}
+}
+
+object minimoNoImponible{
+	var property impuesto = 100
+}
